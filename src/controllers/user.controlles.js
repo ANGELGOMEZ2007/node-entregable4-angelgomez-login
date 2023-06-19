@@ -108,7 +108,7 @@ const resetPassword = catchError(async (req,res)=>{
         to:email,
         subject:"Solicitud de cambio de contraseña",
         html:` 
-        <h2>Haz click en el siguiente enlace para cambiar su la contraseña:</h2>
+        <h2>Haz click en el siguiente enlace para cambiar su contraseña:</h2>
         <a href=${url}>Click me!</a>
         `
     })
